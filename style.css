@@ -10,10 +10,13 @@ body{
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header{
-    margin: 0 auto;
     width: 1090px;
     display: flex;
     justify-content: space-between;
@@ -31,8 +34,8 @@ body{
 
 .container{
     display: flex;
-    margin: 0 auto;
     margin-top: 75.89px;
+    margin-bottom: 75px;
     width: 1110px;
     height: 415px;
 }
